@@ -2,7 +2,7 @@ name: 'deploy'
 on:
   push:
     paths:
-      - '.github/workflows/**'
+      - '.github/workflow/**'
       - 'src/**'
       - 'build.gradle'
       - 'Dockerfile'
